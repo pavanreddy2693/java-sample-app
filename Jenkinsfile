@@ -1,3 +1,3 @@
 @Library('jenkins-shared-library') _
-def repoConfig = [repo: 'multibranch-sample-app']
+def repoConfig = [repo: 'java-sample-app']
 cicd(repoConfig)
